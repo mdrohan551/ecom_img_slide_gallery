@@ -1,0 +1,55 @@
+.zoom_small {
+  width: 100% !important;
+  height: 100%;
+}
+
+.small_img button {
+  width: 100%;
+}
+
+.carousel-indicators.small_img {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: block;
+  justify-content: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  list-style: none;
+}
+
+.carousel-indicators.small_img [data-bs-target] {
+  width: 100%;
+  height: 100px;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  border: 0;
+  opacity: 1;
+  margin-top: -5px;
+}
+
+.small_img button img {
+  display: block;
+}
+
+.carousel-control-prev {
+  left: 82px;
+}
+
+.small_img button.active {
+  position: relative;
+}
+
+.small_img button.active::after {
+  position: absolute;
+  content: '';
+  border: 2px solid red;
+  width: 100%;
+  height: 92%;
+  left: 0;
+  top: 4px;
+}
